@@ -199,6 +199,7 @@ GameObject:
   - component: {fileID: 180924726}
   - component: {fileID: 180924725}
   - component: {fileID: 180924724}
+  - component: {fileID: 180924727}
   m_Layer: 5
   m_Name: Chapter 3
   m_TagString: Untagged
@@ -311,6 +312,20 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_IsOn: 0
+--- !u!114 &180924727
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 180924722}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d434677b629356d49b6bc9f81034d88d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scene:
+    m_Handle: 0
 --- !u!1 &190169873
 GameObject:
   m_ObjectHideFlags: 0
@@ -626,6 +641,7 @@ GameObject:
   - component: {fileID: 329140158}
   - component: {fileID: 329140157}
   - component: {fileID: 329140156}
+  - component: {fileID: 329140159}
   m_Layer: 5
   m_Name: Chapter 8
   m_TagString: Untagged
@@ -738,6 +754,20 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_IsOn: 0
+--- !u!114 &329140159
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 329140154}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d434677b629356d49b6bc9f81034d88d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scene:
+    m_Handle: 0
 --- !u!1 &356626715
 GameObject:
   m_ObjectHideFlags: 0
@@ -880,6 +910,7 @@ GameObject:
   - component: {fileID: 429587505}
   - component: {fileID: 429587507}
   - component: {fileID: 429587506}
+  - component: {fileID: 429587508}
   m_Layer: 5
   m_Name: Chapter 1
   m_TagString: Untagged
@@ -992,6 +1023,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 429587503}
   m_CullTransparentMesh: 0
+--- !u!114 &429587508
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 429587503}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d434677b629356d49b6bc9f81034d88d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scene:
+    m_Handle: 2
 --- !u!1 &448845169
 GameObject:
   m_ObjectHideFlags: 0
@@ -1255,7 +1300,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1612457250}
   m_HandleRect: {fileID: 1612457249}
   m_Direction: 0
-  m_Value: 1
+  m_Value: 0
   m_Size: 1
   m_NumberOfSteps: 0
   m_OnValueChanged:
@@ -1310,6 +1355,7 @@ GameObject:
   - component: {fileID: 552199724}
   - component: {fileID: 552199723}
   - component: {fileID: 552199722}
+  - component: {fileID: 552199725}
   m_Layer: 5
   m_Name: Chapter 6
   m_TagString: Untagged
@@ -1422,6 +1468,20 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_IsOn: 0
+--- !u!114 &552199725
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 552199720}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d434677b629356d49b6bc9f81034d88d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scene:
+    m_Handle: 0
 --- !u!1 &599877298
 GameObject:
   m_ObjectHideFlags: 0
@@ -1554,6 +1614,7 @@ GameObject:
   - component: {fileID: 625492168}
   - component: {fileID: 625492167}
   - component: {fileID: 625492166}
+  - component: {fileID: 625492169}
   m_Layer: 5
   m_Name: 'Chapter 7 '
   m_TagString: Untagged
@@ -1666,6 +1727,20 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_IsOn: 0
+--- !u!114 &625492169
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 625492164}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d434677b629356d49b6bc9f81034d88d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scene:
+    m_Handle: 0
 --- !u!1 &671500071
 GameObject:
   m_ObjectHideFlags: 0
@@ -2023,6 +2098,7 @@ GameObject:
   - component: {fileID: 864166400}
   - component: {fileID: 864166399}
   - component: {fileID: 864166398}
+  - component: {fileID: 864166401}
   m_Layer: 5
   m_Name: Chapter 5
   m_TagString: Untagged
@@ -2135,6 +2211,20 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_IsOn: 0
+--- !u!114 &864166401
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 864166396}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d434677b629356d49b6bc9f81034d88d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scene:
+    m_Handle: 0
 --- !u!1 &887668070
 GameObject:
   m_ObjectHideFlags: 0
@@ -2865,7 +2955,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 2138956746}
   m_HandleRect: {fileID: 2138956745}
   m_Direction: 2
-  m_Value: 1
+  m_Value: 0.9999998
   m_Size: 0.49676278
   m_NumberOfSteps: 0
   m_OnValueChanged:
@@ -3694,6 +3784,7 @@ GameObject:
   - component: {fileID: 1394831172}
   - component: {fileID: 1394831171}
   - component: {fileID: 1394831170}
+  - component: {fileID: 1394831173}
   m_Layer: 5
   m_Name: Chapter 4
   m_TagString: Untagged
@@ -3806,6 +3897,20 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_IsOn: 0
+--- !u!114 &1394831173
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1394831168}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d434677b629356d49b6bc9f81034d88d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scene:
+    m_Handle: 0
 --- !u!1 &1514956748
 GameObject:
   m_ObjectHideFlags: 0
@@ -4613,6 +4718,7 @@ GameObject:
   - component: {fileID: 2050826513}
   - component: {fileID: 2050826512}
   - component: {fileID: 2050826511}
+  - component: {fileID: 2050826514}
   m_Layer: 5
   m_Name: Chapter 2
   m_TagString: Untagged
@@ -4725,6 +4831,20 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_IsOn: 0
+--- !u!114 &2050826514
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2050826509}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d434677b629356d49b6bc9f81034d88d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scene:
+    m_Handle: 3
 --- !u!1 &2138956744
 GameObject:
   m_ObjectHideFlags: 0

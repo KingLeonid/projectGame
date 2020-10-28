@@ -3,6 +3,7 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
+
 public class ChapterListSceneUIScript : MonoBehaviour
 {
     public ToggleGroup chaptersGroup;
@@ -21,10 +22,10 @@ public class ChapterListSceneUIScript : MonoBehaviour
             if (chapter.isOn)
             {
                 // Load selected chapter
+                SceneManager.LoadScene(chapter.GetComponent<LoadingTheSelectChapter>().scene.handle);
                 Debug.Log("Load "+ chapter.name);
                 return;
             }
         }
-        // Show error "No chapter selected"
     }
 }
